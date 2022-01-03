@@ -1,1 +1,3 @@
-{ "recommendations": ["Marko-JS.marko-vscode"] }
+{
+  "recommendations": ["Marko-JS.marko-vscode"]
+}
