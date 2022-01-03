@@ -1,0 +1,28 @@
+{
+  "name": "palm-marko",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack --progress --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopalmeiro/palm-marko.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/palm-marko/issues"
+  },
+  "homepage": "https://github.com/joaopalmeiro/palm-marko#readme",
+  "volta": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
+  },
+  "dependencies": {
+    "marko": "^5.17.6"
+  },
+  "devDependencies": {
+    "@marko/webpack": "^9.2.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
