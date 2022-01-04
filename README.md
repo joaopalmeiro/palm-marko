@@ -17,6 +17,7 @@
 - [@marko/serve](https://github.com/marko-js/cli/blob/main/packages/serve/README.md) repo.
 - [Website](https://github.com/marko-js/website) repo.
 - [10 Awesome Marko Features](https://markojs.com/docs/10-awesome-marko-features/) documentation page.
+- [diy-links-page](https://github.com/thecodercoder/diy-links-page) repo by Coder Coder.
 
 ## Notes
 

@@ -8,4 +8,13 @@ main
         ...(process.env.PALM_WEBSITE
             ? [{ id: 1, name: "Website", url: process.env.PALM_WEBSITE }]
             : []),
+        ...(process.env.PALM_TWITTER
+            ? [
+                  {
+                      id: 2,
+                      name: "Twitter",
+                      url: `https://twitter.com/${process.env.PALM_TWITTER}`,
+                  },
+              ]
+            : []),
     ]

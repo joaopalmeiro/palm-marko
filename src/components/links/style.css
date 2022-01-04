@@ -1,0 +1,8 @@
+.no-bullets {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/padding#formal_definition */
+  padding: unset;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin#formal_definition */
+  margin: unset;
+  /* https://www.w3schools.com/howto/howto_css_list_without_bullets.asp */
+  list-style-type: none;
+}
