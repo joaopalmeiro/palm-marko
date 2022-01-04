@@ -1,4 +1,11 @@
 <!-- code -- ${JSON.stringify(process.env)} -->
 <!-- <body> -->
 main
-  header
+    header
+    <!-- https://amberley.dev/blog/2020-09-07-conditionally-add-to-array-or-obj/#conditionally-add-a-value-to-an-array -->
+    <!-- https://anguscroll.com/just/just-compact -->
+    links data=[
+        ...(process.env.PALM_WEBSITE
+            ? [{ id: 1, name: "Website", url: process.env.PALM_WEBSITE }]
+            : []),
+    ]

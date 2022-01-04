@@ -5,6 +5,7 @@ const envExample = ".env.example";
 
 // https://www.npmjs.com/package/dotenv
 const result = dotenv.config();
+// console.log(result);
 
 const vars = result.parsed;
 const keys = Object.keys(vars)

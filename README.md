@@ -23,7 +23,10 @@
 - `npx @marko/create marko-app --template basic`.
 - `npx marko-serve --help`.
 - `npx marko-build --help`.
-- [dotenv](https://github.com/motdotla/dotenv) package. [Preload](https://github.com/motdotla/dotenv#preload) documentation. [`NODE_OPTIONS`](https://nodejs.org/api/cli.html#node_optionsoptions).
+- [dotenv](https://github.com/motdotla/dotenv) package:
+  - [Preload](https://github.com/motdotla/dotenv#preload) documentation.
+  - [`NODE_OPTIONS`](https://nodejs.org/api/cli.html#node_optionsoptions).
+  - [Feature: Support inline comments](https://github.com/motdotla/dotenv/issues/524) (open) issue.
 - [Proposal: Scoped CSS](https://github.com/marko-js/marko/issues/666) (open) issue.
 - [postcss-import](https://github.com/postcss/postcss-import) plugin.
 - [A cookie associated with a cross-site resource at http://unpkg.com/ was set without the `SameSite` attribute.](https://github.com/mjackson/unpkg/issues/234) issue. Specifying the version seems to solve the problem.
