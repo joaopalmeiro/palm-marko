@@ -6,11 +6,12 @@
   },
   "devDependencies": {
     "@marko/build": "^4",
-    "@marko/serve": "^4"
+    "@marko/serve": "^4",
+    "dotenv": "^10.0.0"
   },
   "scripts": {
     "build": "marko-build ./src/pages --static",
-    "dev": "marko-serve ./src/pages"
+    "dev": "NODE_OPTIONS='-r dotenv/config' marko-serve ./src/pages"
   },
   "volta": {
     "node": "16.13.1",
