@@ -9,7 +9,7 @@
     "@marko/serve": "^4"
   },
   "scripts": {
-    "build": "marko-build ./src/pages",
+    "build": "marko-build ./src/pages --static",
     "dev": "marko-serve ./src/pages"
   },
   "volta": {
