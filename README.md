@@ -7,6 +7,8 @@
 
 ## References
 
+- [Deploy Your Own Links Page with One Click](https://scottspence.com/posts/once-click-links-page) blog post by Scott Spence.
+- [Shortcuts](https://github.com/notrab/shortcuts) project by Scott Spence and Jamie Barton.
 - [`basic` template](https://github.com/marko-js/examples/tree/master/examples/basic).
 - [`webpack-express` template](https://github.com/marko-js/examples/tree/master/examples/webpack-express).
 - [Marko + Webpack](https://markojs.com/docs/webpack/) documentation page.
