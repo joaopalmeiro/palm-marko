@@ -6,7 +6,13 @@ main
     <!-- https://anguscroll.com/just/just-compact -->
     links data=[
         ...(process.env.PALM_WEBSITE
-            ? [{ id: 1, name: "Website", url: process.env.PALM_WEBSITE }]
+            ? [
+                  {
+                      id: 1,
+                      name: "Website",
+                      url: process.env.PALM_WEBSITE,
+                  },
+              ]
             : []),
         ...(process.env.PALM_TWITTER
             ? [
@@ -14,6 +20,8 @@ main
                       id: 2,
                       name: "Twitter",
                       url: `https://twitter.com/${process.env.PALM_TWITTER}`,
+                      // https://about.twitter.com/en/who-we-are/brand-toolkit
+                      color: "#1D9BF0",
                   },
               ]
             : []),

@@ -1,6 +1,10 @@
-$ const { name, url } = input;
+$ const { name, url, color } = input;
 <!-- $ console.log(input); -->
-<!-- li style={ padding: "unset" } -->
+
 li
     <!-- https://web.dev/external-anchors-use-rel-noopener/ -->
-    a.item href=url target="_blank" rel="noopener" -- ${name}
+    a.item href=url target="_blank" rel="noopener"
+        <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#values -->
+        span style={ color: color, fontWeight: "var(--font-weight-7)" }
+            -- ${name.substring(0, 2)}
+        -- ${name.substring(2)}
