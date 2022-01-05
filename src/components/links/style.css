@@ -10,35 +10,29 @@
 /* https://christianheilmann.com/2020/11/26/back-to-basics-creating-a-clickable-card-interface-in-plain-html-css-and-javascript/ */
 /* https://codepo8.github.io/full-card-click/2-clickable-card.html */
 /* https://youtu.be/T-71Yaz7B1I */
+/* https://glitch.com/glitch-in-bio */
 .fullclick > li {
-  position: relative;
-
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block */
+  /* UPDATE */
   margin-block: var(--size-5);
-  /* padding: unset; */
-  padding: var(--size-fluid-3) var(--size-fluid-7);
+
+  /* "Reset" open-props. */
+  max-inline-size: unset;
+  padding: unset;
 
   border-top-left-radius: var(--radius-conditional-3);
   border-bottom-right-radius: var(--radius-conditional-3);
   border: var(--border-size-3) solid var(--gray-5);
+
+  text-align: center;
 }
 
 .fullclick > li > a {
-  /* text-align: center; */
-  text-align: left;
-  display: block;
+  /* UPDATE */
+  min-height: 5.5em;
+  padding: 1.5rem;
 
-  /* overflow-wrap: break-word; */
-}
-
-.fullclick > li > a::after {
-  position: absolute;
-  /* To cover the entire <li> */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: " ";
-  /* For debugging */
-  /* background: crimson; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
