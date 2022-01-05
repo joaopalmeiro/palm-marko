@@ -6,3 +6,28 @@
   /* https://www.w3schools.com/howto/howto_css_list_without_bullets.asp */
   list-style-type: none;
 }
+
+/* https://christianheilmann.com/2020/11/26/back-to-basics-creating-a-clickable-card-interface-in-plain-html-css-and-javascript/ */
+/* https://codepo8.github.io/full-card-click/2-clickable-card.html */
+.fullclick > li {
+  /* TODO */
+  margin: 1em 0;
+  padding: 20px 50px;
+  background: black;
+
+  position: relative;
+}
+
+.fullclick > li > a {
+  text-align: center;
+  display: block;
+}
+
+.fullclick > li > a::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+}
