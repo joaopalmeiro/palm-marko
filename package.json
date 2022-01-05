@@ -2,16 +2,19 @@
   "name": "palm-marko",
   "version": "0.0.1",
   "dependencies": {
+    "keycode": "^2.2.1",
     "marko": "^5"
   },
   "devDependencies": {
     "@marko/build": "^4",
     "@marko/serve": "^4",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "serve": "^13.0.2"
   },
   "scripts": {
     "build": "marko-build ./src/pages --static",
-    "dev": "NODE_OPTIONS='-r dotenv/config' marko-serve ./src/pages"
+    "dev": "NODE_OPTIONS='-r dotenv/config' marko-serve ./src/pages",
+    "start": "NODE_OPTIONS='-r dotenv/config' marko-build ./src/pages --static && serve build --debug"
   },
   "volta": {
     "node": "16.13.1",

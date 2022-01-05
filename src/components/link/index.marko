@@ -3,7 +3,7 @@ $ const { name, url, color } = input;
 
 li style={ borderLeftColor: color, borderBottomColor: color }
     <!-- https://web.dev/external-anchors-use-rel-noopener/ -->
-    a.item href=url target="_blank" rel="noopener"
+    a.item href=url target="_blank" rel="noopener" id=name
         <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#values -->
         kbd.keyboard -- ${name.substring(0, 1)}
         -- ${` ${name.substring(1)}`}
