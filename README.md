@@ -35,3 +35,4 @@
   - [unpkg](https://unpkg.com/browse/open-props@1.1.1/).
   - [jsDelivr](https://www.jsdelivr.com/package/npm/open-props).
 - [SWC](https://swc.rs/).
+- [KeyboardJS](https://github.com/RobertWHurst/KeyboardJS) package.
