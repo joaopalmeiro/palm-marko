@@ -13,8 +13,8 @@
 /* https://glitch.com/glitch-in-bio */
 .fullclick > li {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block */
-  /* UPDATE */
-  margin-block: var(--size-5);
+  /* margin-block: var(--size-5); */
+  margin-block-end: var(--size-5);
 
   /* "Reset" open-props. */
   max-inline-size: unset;
@@ -22,15 +22,15 @@
 
   border-top-left-radius: var(--radius-conditional-3);
   border-bottom-right-radius: var(--radius-conditional-3);
-  border: var(--border-size-3) solid var(--gray-5);
+  /* border: var(--border-size-3) solid var(--gray-5); */
+  border: var(--border-size-4) solid var(--gray-5);
 
   text-align: center;
 }
 
 .fullclick > li > a {
-  /* UPDATE */
-  min-height: 5.5em;
-  padding: 1.5rem;
+  /* min-height: 5.5em; */
+  padding: var(--size-5);
 
   display: flex;
   justify-content: center;
